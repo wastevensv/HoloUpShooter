@@ -9,7 +9,7 @@ public class ShotControl : MonoBehaviour {
     Rigidbody rb;
     bool fired = false;
 
-    Vector3 rotation;
+
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody>();
