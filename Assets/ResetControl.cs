@@ -8,7 +8,7 @@ public class ResetControl : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("space") && gameOver)
+        if (Input.GetButton("Fire1") && gameOver)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
